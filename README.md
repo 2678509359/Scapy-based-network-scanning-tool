@@ -1,3 +1,16 @@
+english
+usage: Scanning based on scapy.py [-h] (--arp | --port | --tcp) --ip IP [--start-port START_PORT] [--end-port END_PORT] [--dst-port DST_PORT]
+
+Scapy network tool set
+
+options: -h, --help show this help message and exit
+--arp performs ARP scanning
+--port performs port scanning
+--tcp performs TCP three-way handshake and chat
+--ip IP target IP address or network segment (such as 192.168.10.1 or 192.168.10.0/24)
+--start-port START_PORT port scan start port (default: 20)
+--end-port END_PORT port scan end port (default: 100)
+
 usage: 基于scapy进行扫描.py [-h] (--arp | --port | --tcp) --ip IP [--start-port START_PORT] [--end-port END_PORT]
                       [--dst-port DST_PORT]
 
